@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+   nginx:
+     image: nginx
+     volumes:
+       - ./dist:/usr/share/nginx/html
+     ports:
+       - "8082:80"
+     command: [nginx, '-g', 'daemon off;']

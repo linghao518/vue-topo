@@ -1,0 +1,26 @@
+.topo-dialog {
+  .el-dialog__header {
+    border-bottom: 1px solid #eee;
+  }
+
+  .el-dialog__footer {
+    border-top: 1px solid #eee;
+  }
+
+  .el-select {
+    display: block;
+  }
+
+  .el-input-number {
+    width: 100%;
+
+    .el-input__inner {
+      text-align: left;
+    }
+  }
+
+  .el-dialog__body {
+    max-height: 450px;
+    overflow: auto;
+  }
+}
